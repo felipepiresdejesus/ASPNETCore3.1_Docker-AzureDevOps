@@ -20,8 +20,8 @@ steps:
 
 - task: Docker@2
   inputs:
-    containerRegistry: 'groffeazuredevops-cr'
-    repository: 'live-canaldotnet'
+    containerRegistry: 'felipepiresdejesus'
+    repository: 'ASPNETCore3.1_Docker-AzureDevOps'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
     tags: |
