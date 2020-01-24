@@ -23,7 +23,7 @@ namespace APIContagem.Controllers
                 {
                     _CONTADOR.ValorAtual,
                     Environment.MachineName,
-                    Local = "Live no Canal .NET",
+                    Local = "Felipe Pires de Jesus",
                     Sistema = Environment.OSVersion.VersionString,
                     Variavel = configuration["TesteAmbiente"],
                     TargetFramework = Assembly
